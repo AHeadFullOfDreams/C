@@ -1,0 +1,30 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: bb - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\MR322F~1.KAN\AppData\Local\Temp\RSPF9C8.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/bb.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\VC6.0\À¬»ø³ÌÐò\2\bb.cpp"
+]
+Creating command line "cl.exe @C:\Users\MR322F~1.KAN\AppData\Local\Temp\RSPF9C8.tmp" 
+<h3>Output Window</h3>
+Compiling...
+bb.cpp
+C:\VC6.0\À¬»ø³ÌÐò\2\bb.cpp(95) : error C2100: illegal indirection
+C:\VC6.0\À¬»ø³ÌÐò\2\bb.cpp(95) : error C2664: 'GetTop' : cannot convert parameter 1 from 'SqStack' to 'SqStack *'
+        No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+C:\VC6.0\À¬»ø³ÌÐò\2\bb.cpp(95) : fatal error C1903: unable to recover from previous error(s); stopping compilation
+Ö´ÐÐ cl.exe Ê±³ö´í.
+
+
+
+<h3>Results</h3>
+bb.obj - 1 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
